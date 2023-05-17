@@ -1,32 +1,7 @@
 import express from 'express';
 const app = express();
-// const tasks = []; // Declare and initialize the tasks array
-const [tasks, setTasks] = useState([
-  {
-      "id": 1,
-      "text": "Doctors Appointment",
-      "day": "Feb 5th at 2:30pm",
-      "reminder": true
-    },
-    {
-      "id": 2,
-      "text": "Meeting at School",
-      "day": "Feb 6th at 1:30pm",
-      "reminder": true
-    },
-    {
-      "id": 3,
-      "text": "Food Shopping",
-      "day": "Feb 5th at 2:30pm",
-      "reminder": false,
-    },
-    {
-      "id": 4,
-      "text": "TGI lime",
-      "day": "Apr 25th at 7:30pm",
-      "reminder": true,
-    }
-])
+const tasks = []; // Declare and initialize the tasks array
+
 app.use(express.json());
 
 
